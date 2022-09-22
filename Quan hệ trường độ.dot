@@ -1,0 +1,67 @@
+digraph regexp { 
+    //Khai báo
+    n0 [ shape=square, label="Giây\nđồng hồ"]
+    
+    subgraph clusterA{label="TEMPO"
+    n1 [shape=box, label="A.Số lượng Phách (Beat)\ntrong 1 giây\n(Tempo định lượng)"]
+    n2 [shape=box, label="B.Số lượng Phách\ntrong 1 giây\n(Tempo Định tính)"]
+    
+    n1 -> n2 [penwidth=3 style="dotted"]
+    }
+    
+    
+    subgraph clusterB{label="SỐ CHỈ NHỊP"
+    n3 [ shape=triangle, label="Chỉ\nsố trên"]
+    n4 [ shape=invtriangle, label="Chỉ\nsố dưới"]
+        
+    n3 -> n4 -> n3 [penwidth=3 style="dotted"]
+    
+    }
+    n7 [ shape=house, label="Ô nhịp\n(1) Tempo định tính\ntrong các ô nhịp\n(2) Số lượng phách\ntrong 1 ô nhịp"]
+    
+    wn [shape=ellipse, label="hole"]
+    dwn [shape=ellipse, label="Double\nwhole"]
+    lon [shape=ellipse, label="Long"]
+    larn [shape=ellipse, label="Large"]
+    half [shape=ellipse, label="Half"]
+    quar [shape=ellipse, label="4"]
+    eigh [shape=ellipse, label="8"]
+    n16 [shape=ellipse, label="16"]
+    n32 [shape=ellipse, label="32"]
+    n64 [shape=ellipse, label="64"]
+    n128 [shape=ellipse, label="128"]
+    n256 [shape=ellipse, label="256"]
+
+    
+    subgraph clusterC{label="NOTE VALUE"
+    n9 [ shape=octagon, label="Các nốt nhạc với\ncác trường độ khác nhau\ntrong các ô nhịp\n(Notes with values)"]
+    wn -> dwn
+    wn -> lon
+    wn -> larn
+    dwn -> lon -> larn [penwidth=3 style="dotted"]
+    
+    wn -> half
+    wn -> quar
+    wn -> eigh
+    wn -> n16
+    wn -> n32
+    wn -> n64
+    wn -> n128
+    wn -> n256
+    half -> quar -> eigh -> n16 -> n32 -> n64 -> n128 -> n256 [penwidth=3 style="dotted"]
+    
+    }
+    
+    //Quan hệ
+    n0 -> n1 [label="(A.Tempo\nđịnh lượng)"]
+    n0 -> n2
+    n4 -> n2 [label="(B.Tempo\nđịnh tính)"]
+    n1 -> n7 [label="(1)" penwidth=3 style="dotted"]
+    n2 -> n7 [label="   (1)" penwidth=3]
+    n3 -> n7 [label="(2)"]
+    n7 -> n9
+    
+    n9 -> wn [penwidth=3, style="dotted"]
+    wn -> n4 [penwidth=3, style="dotted"]
+    
+}
