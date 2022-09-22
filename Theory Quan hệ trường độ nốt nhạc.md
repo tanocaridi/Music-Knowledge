@@ -2,4 +2,4 @@ Lý thuyết âm nhạc này là sự giản lược nội dung từ https://arc
 
 Giản lược để phù hợp với quy mô sử dụng.
 
-File "Quan hệ trường độ.png" là để dành cho những người không biết sử dụng file "Quan hệ trường độ.dot" thông qua Visual Studio Code. Đọc song song tham chiếu ảnh lược đồ và nội dung văn bản.
+File "Quan hệ trường độ.png" là để dành cho những người không biết sử dụng file "Quan hệ trường độ.dot (AT&T )" thông qua Visual Studio Code. Đọc song song, tham chiếu "ảnh lược đồ" và "nội dung văn bản".
