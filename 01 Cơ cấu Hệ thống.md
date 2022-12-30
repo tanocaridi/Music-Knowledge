@@ -12,3 +12,5 @@ Vậy nên ở đây luôn luôn có hai file cùng tên, đồng thời là cù
 Cho nên luôn có cùng nội dung.
 
 Thường xuyên sẽ xem ảnh lược đồ song song với đọc văn bản md.
+
+Sử dụng tại https://drive.google.com/drive/u/0/folders/1f3Hg_udpnOS5kZ52Vk78eue8DG06z0Xp
