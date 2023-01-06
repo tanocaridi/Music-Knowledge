@@ -3,17 +3,6 @@ Tổng hợp bổ sung từ một số phương pháp dạy lý thuyết từ "t
 
 Giản lược để phù hợp với quy mô sử dụng.
 
-Edit reset. Edit reset.
-
-
-
-
-set set set
-
-
-set set set 
-
-
 Đây là nguyên tắc chung
 
 **CẤP ĐỘ SƠ CẤP**
