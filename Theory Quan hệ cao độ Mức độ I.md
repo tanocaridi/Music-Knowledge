@@ -64,11 +64,11 @@ Tạm thời đã đưa ra IV phương pháp xác định quan hệ, trong khi n
 Thực hiện tuần tự từ dòng 1 đến dòng n.
 Căn cứ vào **#F, C, G, D, A, E, Bb** với quy tắc sắp xếp ở trên - [VAMethod].
 |Bước|Hoạt động|
-|-|-
+|-|-|
 |1|# cuối/b CẬN cuối (là gốc cho bước 2).
-|2|nâng "bước 1" lên quãng 2t thành ÂM CHỦ GIỌNG TRƯỞNG.
-|3|hạ "bước 2" xuống quãng 3t thành ÂM CHỦ GIỌNG THỨ song song.
-|1b|1 dấu giáng, nhớ bằng đầu (ko suy luận): Là Ddur/Fmoll
+|2|ÂM CHỦ CỦA GIỌNG TRƯỞNG: Là đấu b CẬN cuối. Là dấu # cuối nâng lên một quãng 2t.
+|3|Hạ "bước 2" xuống quãng 3t thành ÂM CHỦ GIỌNG THỨ song song.
+|1b|1 dấu giáng, nhớ bằng đầu (ko suy luận): Là D trưởng/F thứ
 
 Tóm lại là phải nhớ (học thuộc lòng) 2 yếu tố "**#F, C, G, D, A, E, Bb**" và "1 dấu b".
 
